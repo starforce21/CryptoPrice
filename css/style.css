@@ -10,6 +10,16 @@
     width: 200px;
     height: 200px;
 }
+#p1table{
+    width:100%;
+}
+.bigData{
+    display: inline-block;
+    border-style: solid;
+    border-color: red;
+    margin: 20px;
+    background-color: yellow;
+}
 #body1{
 	/* background-image: url('../images/megaraybg.jpeg'); */
     text-align: center;
