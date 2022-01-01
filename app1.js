@@ -39,9 +39,7 @@ function display(num=30) {
                         <td>${numberWithCommas(data[i].market_cap)}</td></tr>`
         }
         tableText+='</table>'
-        console.log(tableText)
         document.getElementById('div3').innerHTML=tableText
-        console.log(numberOfResults)
     })
     .catch((error)=>{
     console.log(error);
