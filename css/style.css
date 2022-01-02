@@ -101,6 +101,14 @@
 }
 #div1{
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#flex1{
+
+}
+#flex2{
+
 }
 .div2{
     display: flex;
