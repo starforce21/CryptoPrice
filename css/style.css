@@ -9,7 +9,6 @@
     background-color: yellow;
 }
 #body1{
-	/* background-image: url('../images/megaraybg.jpeg'); */
     text-align: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -21,15 +20,6 @@
 #body3{
 	background-image: linear-gradient(lightpink,lightblue);
     text-align: center;
-}
-#sp1{
-    background: rgb(0,44,255);
-    background: linear-gradient(0deg, rgba(0,44,255,1) 0%, rgba(159,159,85,1) 50%, rgba(106,0,255,1) 100%);
-    background-size: 100%;
-    background-clip: text ;
-   -webkit-background-clip: text ;
-   -webkit-text-fill-color: transparent;
-   font-size: 50px;
 }
 #h3{
     background-image: linear-gradient(blue,green) ;
@@ -56,33 +46,10 @@
    -webkit-text-fill-color: transparent;
    -moz-text-fill-color: transparent;
 }
-#h1{
+#searchDiv{
     text-align: center;
-    color: rgb(128, 49, 49); 
-    background-color: rgb(188, 236, 173);
-    border:1px solid green;
-    border-radius: 10px;
-    margin: auto;
-    width: auto;
-}
-#h2{
-    text-align: center;
-    color: blue;
-    background-color: yellow;
-    border:1px solid green;
-    border-radius: 10px;
-    margin: auto;
-    width: 20%;
-}
-.para1{
     display: flex;
     justify-content: center;
-    color: blue;
-    background-color: yellow;
-    border:1px solid green;
-    border-radius: 10px;
-    margin: auto;
-    width: 20%;
 }
 #div1{
     text-align: center;
@@ -114,6 +81,9 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     list-style: none;
+}
+.contactForm{
+    width: 50%;
 }
 .dropdown1 a {
     color: #3eee46;
